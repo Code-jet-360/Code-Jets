@@ -1,11 +1,13 @@
-body{
+@media (min-width:600px){
+    body{
     margin: 0;
     display: grid;
     grid-template-rows: 2fr 5fr 2fr;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0% , rgba(9,9,121,1) 35%,rgba(0,212,255,1) 100%);
 }
- footer{margin-top: 35;
+ footer{
+    margin-top: 35;
     color: aliceblue;
     padding: 20px;
     text-align: right;
@@ -15,6 +17,7 @@ footer:hover{
     color: azure;
     box-shadow: 10px 0 20px black;
     transition: 800ms;
+    background: linear-gradient(90deg,rgba(0,212,255,1) 0% , rgba(9,9,121,1) 35% , rgba(2,0,36,1) 100%);
 }
 header{
     color: aliceblue;
@@ -45,4 +48,5 @@ header h2:after,header h2:before {
     border-top: 1px solid wheat;
     height: 5px;
     background-color:transparent;
+}
 }
