@@ -46,7 +46,3 @@ header h2:after,header h2:before {
     height: 5px;
     background-color:transparent;
 }
-img{
-    height: 50px;
-    border-radius: 10%;
-}
