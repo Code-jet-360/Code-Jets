@@ -24,7 +24,7 @@
 }
 
 .container .card:nth-child(1) .icon {
-    background: #e07768;
+    background: darkred;
 }
 
 .container .card:nth-child(2) .icon {
@@ -32,30 +32,33 @@
 }
 
 .container .card:nth-child(3) .icon {
-    background: #4aada9;
+    background: green;
 }
 .container .card:nth-child(4) .icon {
     background: purple;
 }
 
-.container .card .icon .fa {
+/*.container .card .icon img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 80px;
     transition: 0.7s;
-    color: #fff;
-}
+    color: f;
+}*/
 
-i {
+img {
+    border-radius: 70%;
+    height: 100px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 80px;
     transition: 0.7s;
-    color: #fff;
+    color: transparent;
+    box-shadow: 0 0 10px black;
 }
 
 .container .card .face {
