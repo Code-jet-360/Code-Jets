@@ -1,0 +1,23 @@
+.info{
+    display: none;
+    position: absolute;
+    margin: 140px;
+    opacity: .3;
+}
+.info:hover{
+    transition: .4s;
+    opacity: 1;
+}
+.blackbody{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    opacity: 1;
+}
+.blackbody:hover{
+    opacity: .3;
+    transition: .3s;
+}

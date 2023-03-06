@@ -1,0 +1,45 @@
+body{
+    /* background: url("G:\\entertainment\\wallpaper\\sci-fi\\shiptown_overlook.jpg") ; */
+    background: url("G:\\entertainment\\wallpaper\\sci-fi\\wallpaperflare.com_wallpaper (11).jpg");
+    background-size: cover;
+    -webkit-text-fill-color: mediumorchid;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1fr;
+}
+div{
+    border-radius: 10%;
+}
+.black{
+    margin: 50px;
+    background-color: black;
+    opacity: .6;
+}
+#det{
+    position: absolute;
+    margin: 140px;
+    opacity: 1;
+    display: grid;
+    grid-template-rows: 3fr  1fr;
+}
+#det .box{
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 85%;
+    column-gap: 75%;
+}
+img{
+    position: absolute;
+    right: 140px;
+    top: 80;
+    border-radius: 20px;
+    opacity: .1;
+    height: 600px;
+    transition: .4s;
+}
+img:hover{
+    opacity: .7;
+    transition: .4s;
+    transition-delay: 10ms;
+}
